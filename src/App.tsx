@@ -1,5 +1,10 @@
+import { Outlet } from 'react-router-dom';
+import { Footer, Header, Layout } from './components';
+
 export const App: React.FC = () => (
-  <>
-    Hello world.
-  </>
+  <Layout
+    header={<Header />}
+    main={<Outlet />}
+    footer={<Footer />}
+  />
 );

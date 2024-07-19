@@ -1,0 +1,18 @@
+.c-footer {
+  display: grid;
+  grid-area: inherit;
+  grid-template-columns: subgrid;
+  align-items: center;
+  min-height: 64px;
+  border: 1px solid var(--color-dark-75);
+  border-width: 1px 0 0;
+  background-color: var(--color-dark-95);
+  box-shadow: 0 -5px 10px var(--color-shadow);
+}
+
+.c-footer__content {
+  grid-column: content-start / content-end;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-dark-45);
+}

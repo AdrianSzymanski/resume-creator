@@ -1,0 +1,23 @@
+.c-home {
+  display: grid;
+  grid-area: inherit;
+  grid-template-columns: subgrid;
+}
+
+.c-home__main {
+  grid-column: content-start / content-end;
+  padding: 40px 0;
+}
+
+.c-home__promo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 80ch;
+  margin: 0 0 64px;
+}
+
+.c-home__headline {
+  font-size: 24px;
+  font-weight: 500;
+}
